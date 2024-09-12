@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 from httpx import AsyncClient, Response
 from link_collecting import get
 
-PHOTOS_DIRECTORY = '/home/sasha/Documents/parsing_venv/photos'
-DB_AUTH = 'postgresql://sasha:BBYYKKYYCFXARD@localhost/autos'
+PHOTOS_DIRECTORY = ...
+DB_AUTH = ...
 
 
 def process_car_name(soup: BeautifulSoup) -> dict[str, str]:
